@@ -46,6 +46,7 @@ header { @include cabecalho-rodape;
         }
         a{
             color: $texto-cabecalho-rodape;
+            &:visited { color: blue};
             &:hover { color: $texto-area_principal};
         }
         
